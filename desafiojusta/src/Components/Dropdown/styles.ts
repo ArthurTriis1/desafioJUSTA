@@ -4,6 +4,7 @@ export const Container = styled.div`
   select {
     background: transparent;
     border-radius: 10px;
+    content: 'Ruâni';
     color: blue;
     font-family: "Press Start 2P", sans-serif;
     font-size: 1rem;

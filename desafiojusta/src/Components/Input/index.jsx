@@ -16,6 +16,7 @@ function Input() {
   }, []);
 
   const handleClick = async (pokemon) => {
+    if (pokemon.startsWith('Escolha')) return pokemon = '?limit=151'
     const filterSelected = await axiosData(pokemon);
     setFilterData(filterSelected);
     history.push(`/${pokemon}`);

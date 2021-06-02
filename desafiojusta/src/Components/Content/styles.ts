@@ -3,11 +3,13 @@ import styled from "styled-components";
 export const Container = styled.div`
   align-items: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: center;
+  background-position: 10vw 10vh;
   background-image: url('https://pa1.narvii.com/6573/11b70c300551bf5a92d4474fbf7035d5a5787b84_hq.gif');
   color: rgb(0, 0, 200);
   display: flex;
   height: 100%;
+  max-width: 100vw;
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
