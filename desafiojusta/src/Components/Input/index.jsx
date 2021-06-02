@@ -23,6 +23,7 @@ function Input() {
 
   return (
     <>
+      <h1>Seja bem vindo(a), Treinador(a) Pokémon</h1>
       <select
         onChange={(event) => setFilter(event.target.value)}
         onClick={(event) => handleClick(event.target.value)}
