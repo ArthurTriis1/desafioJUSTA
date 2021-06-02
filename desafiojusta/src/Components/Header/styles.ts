@@ -2,19 +2,28 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   header {
-    align-items: center;
-    background-image: url("https://4.bp.blogspot.com/-UYJjvmDemn0/WT3ov0R6cpI/AAAAAAAAvgE/frFGuJ4p4Ac7umWkdZZF5qTbnKdReWP2wCLcB/s1600/landscape-1456483171-pokemon2.jpg");
-    background-size: cover;
-    display: flex;
-    height: 80vh;
-    justify-content: center;
+    background-image: url("https://i.pinimg.com/originals/c8/0f/09/c80f0914dfbd87a92c13abbef88dee82.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70vh;
     overflow: hidden;
-    width: 100vw;
+    width: 80vw;
   }
+
   h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: blue;
     font-family: "Press Start 2P";
     font-size: 1.2rem;
     margin: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;

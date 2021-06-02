@@ -7,7 +7,7 @@ export default createGlobalStyle `
       box-sizing: border-box;
   }
   html, body, #root {
-    background: #eee;
+    background: #CCEEFF;
     height: 100%;
   }
   *, button, input {
