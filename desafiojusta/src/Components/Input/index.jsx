@@ -30,7 +30,7 @@ function Input() {
         onClick={(event) => handleClick(event.target.value)}
       >
         <option disabled selected>
-          Escolha seu pokemon abaixo
+          Escolha seu pokemon
         </option>
         {pokemons.map((pokemon) => (
           <option key={pokemon.name} value={pokemon.name}>
