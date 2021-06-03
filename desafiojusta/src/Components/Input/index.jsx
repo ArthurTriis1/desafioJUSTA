@@ -1,13 +1,18 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useContext, useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { Context } from "../../Provider/Context";
 import axiosData from "../../Services/requestAPI";
 
 function Input() {
   const history = useHistory();
-  const { pokemons, setPokemons, setFilter, setFilterData } =
-    useContext(Context);
+  const { 
+    pokemons,
+    setPokemons,
+    setFilter,
+    setFilterData 
+  } = useContext(Context);
+  
   useEffect(async () => {
     const {
       data: { results },
@@ -16,7 +21,7 @@ function Input() {
   }, []);
 
   const handleClick = async (pokemon) => {
-    if (pokemon.startsWith('Escolha')) return pokemon = '?limit=151'
+    if (pokemon.startsWith("Escolha")) return (pokemon = "?limit=151");
     const filterSelected = await axiosData(pokemon);
     setFilterData(filterSelected);
     history.push(`/${pokemon}`);
@@ -33,7 +38,11 @@ function Input() {
           Escolha o pokemon
         </option>
         {pokemons.map((pokemon) => (
-          <option data-testid={pokemon.name} key={pokemon.name} value={pokemon.name}>
+          <option
+            data-testid={pokemon.name}
+            key={pokemon.name}
+            value={pokemon.name}
+          >
             {pokemon.name}
           </option>
         ))}

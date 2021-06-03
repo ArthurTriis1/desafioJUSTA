@@ -15,9 +15,8 @@ export const Container = styled.div`
     background-size: cover;
     color: rgb(200, 0, 0);
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     height: 100%;
-    justify-content: center;
     max-width: 100vw;
     overflow: hidden;
   }
@@ -29,11 +28,11 @@ export const Container = styled.div`
   }
 
   img {
-    width: 33vw;
+    width: 40vw;
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: normal;
   }
@@ -44,13 +43,15 @@ export const Container = styled.div`
 
   h1 {
     font-family: "Press Start 2P";
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 3rem;
     text-align: center;
     text-transform: capitalize;
   }
 
   h3 {
+    font-size: 1.75rem;
+    margin-bottom: 25px;
     text-transform: capitalize;
   }
 
@@ -58,18 +59,20 @@ export const Container = styled.div`
     margin-top: 10px;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     input {
       position: relative;
+      width: 20vw;
     }
 
     .cardDetailsContainer {
-      height: 50%;
+      height: 75%;
+      width: 90vw;
     }
   }
 `;
