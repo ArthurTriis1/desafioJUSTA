@@ -12,7 +12,7 @@ export const Container = styled.div`
     background-image: url("https://i.pinimg.com/originals/c8/0f/09/c80f0914dfbd87a92c13abbef88dee82.gif");
     background-repeat: no-repeat;
     background-position: center center;
-    height: 70vh;
+    height: 60vh;
     overflow: hidden;
     width: 90vw;
   }

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   background: linear-gradient(329.54deg, #fff 30%, red 60%);
-  height: 30vh;
+  height: 40vh;
   padding-top: 1.5rem;
   width: 100%;
 
@@ -10,10 +10,10 @@ export const Container = styled.div`
     background: transparent;
     border-radius: 10px;
     font-family: "Press Start 2P", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     height: 2.5rem;
     margin: 2rem;
-    max-width: 85vw;
+    max-width: 95vw;
     overflow: hidden;
     padding-left: 15px;
     -webkit-appearance: none;
