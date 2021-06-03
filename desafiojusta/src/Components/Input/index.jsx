@@ -16,6 +16,7 @@ function Input() {
   }, []);
 
   const handleClick = async (pokemon) => {
+    if (pokemon.startsWith('Escolha')) return pokemon = '?limit=151'
     const filterSelected = await axiosData(pokemon);
     setFilterData(filterSelected);
     history.push(`/${pokemon}`);
@@ -29,7 +30,7 @@ function Input() {
         onClick={(event) => handleClick(event.target.value)}
       >
         <option disabled selected>
-          Escolha seu pokemon abaixo
+          Escolha seu pokemon
         </option>
         {pokemons.map((pokemon) => (
           <option key={pokemon.name} value={pokemon.name}>
