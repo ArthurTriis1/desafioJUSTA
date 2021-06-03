@@ -33,7 +33,7 @@ function Input() {
           Escolha o pokemon
         </option>
         {pokemons.map((pokemon) => (
-          <option key={pokemon.name} value={pokemon.name}>
+          <option data-testid={pokemon.name} key={pokemon.name} value={pokemon.name}>
             {pokemon.name}
           </option>
         ))}

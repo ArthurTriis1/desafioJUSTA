@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <Container>
       <div className="background">
-        <header className="banner" /> 
+        <header data-testid="header-home" className="banner" /> 
       </div>      
     </Container>
   );
