@@ -1,7 +1,7 @@
 # Desafio Frontend
 ## Obrigado pela oportunidade de estar nesse desafio
 
-## Sejam todos bem vindos(as) ao meu PokeProjeto, tudo justo?
+## Sejam todos(as) bem vindos(as) ao meu PokeProjeto, tudo justo?
 
 ### Sobre o Projeto:
   Trata-se de aplicação à vaga de Desenvolvedor Front-End Jr para a fintech Justa Pagamentos, o projeto consiste em desenvolver uma SPA usando requisição API REST, sem ajuda de biblioteca de componentes de terceiros. Poderia ser usado algum framework JS para a criação da página, sendo obrigatório desenvolvê-la usando Typescript.
