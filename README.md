@@ -19,7 +19,7 @@
 ## Deploy realizado no Vercel. Acesse o site do projeto em: https://pokemon-rf.vercel.app/
 
 # Como usar o presente projeto?
-  Faça um git clone git@github.com:RuaniFilipe/desafioJUSTA.git;
+  Faça um git clone 'git@github.com:RuaniFilipe/desafioJUSTA.git';
   
   Em seguida cd desafiojusta para acessar a pasta raiz do projeto);
   
